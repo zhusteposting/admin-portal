@@ -193,8 +193,9 @@ Expected Response:
 - Method: GET
 - Category: Jobs
 - Route: `/job/search`
-    - additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
+- additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
 - Gets job posts by keywords and additional query parameters
+- There's pagination
 
 <details>
     <summary>GET</summary>
@@ -289,6 +290,7 @@ Expected Results:
 - Route: `/company/search`
 - additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
 - Gets job posts by keywords and additional query parameters
+- There's pagination
 
 <details>
     <summary>GET</summary>
