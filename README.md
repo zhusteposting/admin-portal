@@ -1,9 +1,9 @@
 # e-posting
 e-posting
 
-### Endpoint Functionality
+## Endpoint Functionality
 
-### My Profile Tab
+## My Profile Tab
 ---
 - Method: GET
 - Route: `/user/me`
@@ -98,7 +98,7 @@ Expected Response:
 ```
 </details>
 
-### My Job Postings Tab
+## My Job Postings Tab
 ---
 - Method: GET
 - Route: `/job/owner/{userId}`
@@ -188,7 +188,7 @@ Expected Response:
 ```
 </details>
 
-### Search Tab
+## Search Tab
 ---
 - Method: GET
 - Category: Jobs
@@ -352,7 +352,7 @@ Expected Results:
 ```
 </details>
 
-# Company by Company Id
+### Company by Company Id
 ---
 - Method: GET
 - Route: `/company/{id}`
@@ -387,7 +387,7 @@ Example of expected result:
 ```
 </details>
 
-# Edit/Put company by id
+### Edit/Put company by id
 ---
 - Method: PUT
 - Route: `/company/{id}`
@@ -433,7 +433,7 @@ Expected results:
 ```
 </details>
 
-# Delete company by id
+### Delete company by id
 ---
 - Method: DELETE
 - Route: `/company/{id}`
@@ -453,7 +453,7 @@ Expected results:
 ```
 </details>
 
-# Job Post details by Job Post id(_id)
+### Job Post details by Job Post id(_id)
 ---
 - Method: GET
 - Route: `/job/{id}`
@@ -502,7 +502,7 @@ Expected Response:
 ```
 </details>
 
-# Edit/Put Job Post by Job Post id(_id)
+### Edit/Put Job Post by Job Post id(_id)
 ---
 - Method: PUT
 - Route: `/job/{id}`
@@ -558,7 +558,7 @@ Expected Response:
 ```
 </details>
 
-# Delete Job Post by Job Post id(_id)
+### Delete Job Post by Job Post id(_id)
 ---
 - Method: DELETE
 - Route: `/job/{id}`
