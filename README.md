@@ -353,7 +353,7 @@ Expected Results:
 </details>
 
 
-## Company by Company Id
+# Company by Company Id
 ---
 - Method: GET
 - Route: `/company/{id}`
@@ -454,9 +454,7 @@ Expected results:
 ```
 </details>
 
-
-
-## Job Post details by Job Post id(_id)
+# Job Post details by Job Post id(_id)
 ---
 - Method: GET
 - Route: `/job/{id}`
