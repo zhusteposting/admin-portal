@@ -292,7 +292,7 @@ Expected Results:
 
 <details>
     <summary>GET</summary>
-    
+
 Endpoint URL examples:
 ```
 /company/search?companyName=co&page=1
@@ -350,9 +350,6 @@ Expected Results:
 ```
 </details>
 
-- Method: GET
-- Category: User
-- TBD
 
 ## Company by Company Id
 ---
