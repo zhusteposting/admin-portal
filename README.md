@@ -52,6 +52,54 @@ e-posting
 | profileStep3    | str      |
 | profileStep4    | str      |
 
+### Job Model
+
+| Field               | Type     |
+| ------------------- | -------- |
+| jobOwnerId          | str      |
+| jobOwner            | str      |
+| jobTitle            | str      |
+| description         | str      |
+| company             | str      |
+| companyId           | str      |
+| city                | str      |
+| state               | str      |
+| country             | str      |
+| workLocationType    | str      |
+| employmentType      | str      |
+| workExperience      | number   |
+| yearsOfExperience   | number   |
+| totalCompensation   | number   |
+| skills              | str      |
+| questionnaire       | str      |
+| endSubmissionReason | str      |
+| visibleTo           | str      |
+| closingDate         | date     |
+| jobPostStatus       | number   |
+| favoritedCount      | number   |
+| applyCount          | number   |
+| viewCount           | number   |
+| archiveDate         | date     |
+
+### Job Model
+
+| Field         | Type     |
+| ------------- | -------- |
+| id            | str      |
+| companyName   | str      |
+| ticker        | str      |
+| address       | str      |
+| city          | str      |
+| state         | str      |
+| postalCode    | Number   |
+| country       | str      |
+| website       | str      |
+| sector        | str      |
+| industry      | str      |
+| companyCeo    | number   |
+| companyStatus | number   |
+| logo          | str      |
+
 ## My Profile Tab
 ---
 - Method: GET
@@ -146,35 +194,6 @@ Expected Response:
 }
 ```
 </details>
-
-### Job Model
-
-| Field               | Type     |
-| ------------------- | -------- |
-| jobOwnerId          | str      |
-| jobOwner            | str      |
-| jobTitle            | str      |
-| description         | str      |
-| company             | str      |
-| companyId           | str      |
-| city                | str      |
-| state               | str      |
-| country             | str      |
-| workLocationType    | str      |
-| employmentType      | str      |
-| workExperience      | number   |
-| yearsOfExperience   | number   |
-| totalCompensation   | number   |
-| skills              | str      |
-| questionnaire       | str      |
-| endSubmissionReason | str      |
-| visibleTo           | str      |
-| closingDate         | date     |
-| jobPostStatus       | number   |
-| favoritedCount      | number   |
-| applyCount          | number   |
-| viewCount           | number   |
-| archiveDate         | date     |
 
 ## My Job Postings Tab
 ---
@@ -362,25 +381,6 @@ Expected Results:
 }
 ```
 </details>
-
-### Job Model
-
-| Field         | Type     |
-| ------------- | -------- |
-| id            | str      |
-| companyName   | str      |
-| ticker        | str      |
-| address       | str      |
-| city          | str      |
-| state         | str      |
-| postalCode    | Number   |
-| country       | str      |
-| website       | str      |
-| sector        | str      |
-| industry      | str      |
-| companyCeo    | number   |
-| companyStatus | number   |
-| logo          | str      |
 
 - Method: GET
 - Category: Companies
