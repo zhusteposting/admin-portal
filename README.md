@@ -352,7 +352,6 @@ Expected Results:
 ```
 </details>
 
-
 # Company by Company Id
 ---
 - Method: GET
