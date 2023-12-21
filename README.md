@@ -5,29 +5,52 @@ e-posting
 
 ### User Account Model
 
-    | Name                           | Type     | Unique | Required |
-    | ------------------------------ | -------- | ------ | -------- |
-    | id | str      | yes    | yes      |
-    | email | str      | no     | no       |
-    | password | str      | no     | yes      |
-    | signupDate | str      | no     | yes      |
-    | isEmailAuthenticated | str      | no     | yes      |
-    | accountType | str      | no     | yes      |
-    | accountStatus | str      | no     | yes      |
-    | role | str      | no     | yes      |
-    | accountSettings | str      | no     | yes      |
-    | lastActive | str      | no     | yes      |
-    | provider | str      | no     | no       |
-    | profile | ref      | no     | no       |
-    | favorites | str      | no     | no       |
-    | following | str      | no     | no       |
-    | verificationToken | str      | no     | no       |
-    | passwordResetToken | str      | no     | no       |
-    | tokenExpirationDate | str      | no     | no       |
-    | failedLoginAttempts | str      | no     | no       |
-    | lastFailedLoginAttempt | str      | no     | no       |
-    | passwordRecoveryAttempts | str      | no     | no       |
-    | lastPasswordRecoveryAttempt | str      | no     | no       |
+| Field                          | Type     |
+| ------------------------------ | -------- |
+| id                             | str      |
+| email                          | str      |
+| password                       | str      |
+| signupDate                     | date     |
+| isEmailAuthenticated           | boolean  |
+| accountType                    | int      |
+| accountStatus                  | str      |
+| role                           | str      |
+| accountSettings                | str      |
+| lastActive                     | date     |
+| provider                       | str      |
+| profile                        | str      |
+| favorites                      | str      |
+| following                      | str      |
+| verificationToken              | str      |
+| passwordResetToken             | str      |
+| tokenExpirationDate            | instant  |
+| failedLoginAttempts            | instant  |
+| lastFailedLoginAttempt         | instant  |
+| passwordRecoveryAttempts       | int      |
+| lastPasswordRecoveryAttempt    | instant  |
+
+### Profile Account Model
+
+| Field           | Type     |
+| --------------- | -------- |
+| id              | str      |
+| profilePicture  | str      |
+| firstName       | str      |
+| lastName        | str      |
+| title           | str      |
+| phone           | str      |
+| country         | str      |
+| stateOrProvince | str      |
+| city            | str      |
+| userSummary     | str      |
+| userUrls        | str      |
+| workExperience  | str      |
+| skills          | str      |
+| resume          | str      |
+| profileStep1    | str      |
+| profileStep2    | str      |
+| profileStep3    | str      |
+| profileStep4    | str      |
 
 ## My Profile Tab
 ---
@@ -123,6 +146,35 @@ Expected Response:
 }
 ```
 </details>
+
+### Job Model
+
+| Field               | Type     |
+| ------------------- | -------- |
+| jobOwnerId          | str      |
+| jobOwner            | str      |
+| jobTitle            | str      |
+| description         | str      |
+| company             | str      |
+| companyId           | str      |
+| city                | str      |
+| state               | str      |
+| country             | str      |
+| workLocationType    | str      |
+| employmentType      | str      |
+| workExperience      | number   |
+| yearsOfExperience   | number   |
+| totalCompensation   | number   |
+| skills              | str      |
+| questionnaire       | str      |
+| endSubmissionReason | str      |
+| visibleTo           | str      |
+| closingDate         | date     |
+| jobPostStatus       | number   |
+| favoritedCount      | number   |
+| applyCount          | number   |
+| viewCount           | number   |
+| archiveDate         | date     |
 
 ## My Job Postings Tab
 ---
@@ -310,6 +362,25 @@ Expected Results:
 }
 ```
 </details>
+
+### Job Model
+
+| Field         | Type     |
+| ------------- | -------- |
+| id            | str      |
+| companyName   | str      |
+| ticker        | str      |
+| address       | str      |
+| city          | str      |
+| state         | str      |
+| postalCode    | Number   |
+| country       | str      |
+| website       | str      |
+| sector        | str      |
+| industry      | str      |
+| companyCeo    | number   |
+| companyStatus | number   |
+| logo          | str      |
 
 - Method: GET
 - Category: Companies
