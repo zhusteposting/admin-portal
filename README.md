@@ -3,6 +3,15 @@ e-posting
 
 ## Endpoint Functionality
 
+### Dropdown Filters & Selections
+
+| Selection                             | Options                              |
+| ------------------------------------- | ------------------------------------ |
+| Work Location Type = workLocationType | Onsite, Remote, Hybrid               |
+| Employment Type = employmentType      | Full Time, Part Time, Contract       |
+| Experience Level = yearsOfExperience  | Entry, Entry-Mid, Mid-Senior, Senior | 
+| Date = closingDate                    | 24-hour, 1 week, 2 week, 4 weeks     |
+
 ### User Account Model
 
 | Field                          | Type     |
@@ -290,7 +299,7 @@ Expected Response:
 - Method: GET
 - Category: Jobs
 - Route: `/job/search`
-- additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
+- additional parameters that can be added such as `workLocationType`, `employmentType`, `yearsOfExperience`, `closingDate`
 - Gets job posts by keywords and additional query parameters
 - There's pagination
 
@@ -385,7 +394,7 @@ Expected Results:
 - Method: GET
 - Category: Companies
 - Route: `/company/search`
-- additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
+- additional parameters that can be added such as `workLocationType`, `employmentType`, `yearsOfExperience`, `closingDate`
 - Gets job posts by keywords and additional query parameters
 - There's pagination
 
