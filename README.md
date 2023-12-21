@@ -3,7 +3,7 @@ e-posting
 
 #### Endpoint Functionality
 
-### My Profile
+### My Profile Tab
 ---
 - Method: GET
 - Route: `/user/me`
@@ -98,7 +98,7 @@ Expected Response:
 ```
 </details>
 
-### My Job Postings
+### My Job Postings Tab
 ---
 - Method: GET
 - Route: `/job/owner/{userId}`
@@ -188,7 +188,7 @@ Expected Response:
 ```
 </details>
 
-### Search
+### Search Tab
 ---
 - Method: GET
 - Category: Jobs
