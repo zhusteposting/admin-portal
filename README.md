@@ -106,7 +106,7 @@ Expected Response:
 - Display only the jobTitle text
 - There is pagination involved
 
-<detail>
+<details>
     <summary>GET</summary>
 
 Expected Response:
@@ -186,7 +186,7 @@ Expected Response:
     }
 }
 ```
-</detail>
+</details>
 
 ### Search
 ---
@@ -196,7 +196,7 @@ Expected Response:
     - additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
 - Gets job posts by keywords and additional query parameters
 
-<detail>
+<details>
     <summary>GET</summary>
     Endpoint URL examples:
     ```
@@ -282,7 +282,7 @@ Expected Response:
     }
 }
     ```
-</detail>
+</details>
 
 - Method: GET
 - Category: Companies
@@ -290,7 +290,7 @@ Expected Response:
 - additional parameters that can be added such as workLocationType, employmentType, yearsOfExperience, closingDate
 - Gets job posts by keywords and additional query parameters
 
-<detail>
+<details>
     <summary>GET</summary>
     Endpoint URL examples:
     ```
@@ -347,7 +347,7 @@ Expected Response:
     }
 }
     ```
-</detail>
+</details>
 
 - Method: GET
 - Category: User
@@ -359,7 +359,7 @@ Expected Response:
 - Route: `/company/{id}`
 - Gets company by it's id
 
-<detail>
+<details>
     <summary>GET</summary>
     Example of expected result:
     ```
@@ -385,7 +385,7 @@ Expected Response:
     }
 }
     ```
-</detail>
+</details>
 
 # Edit/Put company by id
 ---
@@ -393,7 +393,7 @@ Expected Response:
 - Route: `/company/{id}`
 - Updates company by it's id
 
-<detail>
+<details>
     <summary>PUT</summary>
     Example JSON body:
     ```
@@ -429,7 +429,7 @@ Expected Response:
         "logo": "https://epost-template-bucket.s3.us-west-1.amazonaws.com/Company+Logos/amazon_logo.png"
     }
 }```
-</detail>
+</details>
 
 # Delete company by id
 ---
@@ -437,7 +437,7 @@ Expected Response:
 - Route: `/company/{id}`
 - Deletes a company by it's id
 
-<detail>
+<details>
     <summary>DELETE</summary>
 
     Expected results:
@@ -449,7 +449,7 @@ Expected Response:
     "message": "Successfully removed company"
     }
     ```
-</detail>
+</details>
 
 
 
@@ -459,7 +459,7 @@ Expected Response:
 - Route: `/job/{id}`
 - Gets the user's posted jobs
 
-<detail>
+<details>
     <summary>GET</summary>
 
     Expected Response:
@@ -500,7 +500,7 @@ Expected Response:
         }
     }
     ```
-</detail>
+</details>
 
 # Edit/Put Job Post by Job Post id(_id)
 ---
@@ -508,7 +508,7 @@ Expected Response:
 - Route: `/job/{id}`
 - Updates the user's posted jobs
 
-<detail>
+<details>
     <summary>PUT</summary>
     JSON body Input Example:
     ```
@@ -555,7 +555,7 @@ Expected Response:
         }
     }
     ```
-</detail>
+</details>
 
 # Delete Job Post by Job Post id(_id)
 ---
@@ -563,7 +563,7 @@ Expected Response:
 - Route: `/job/{id}`
 - Deletes post by id
 
-<detail>
+<details>
     <summary>DELETE</summary>
 
 Expected Response:
@@ -575,6 +575,4 @@ Expected Response:
     "message": "Successfully removed job post"
 }
 ```
-</detail>
-
-## User Category
+</details>
