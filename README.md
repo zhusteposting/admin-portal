@@ -292,6 +292,7 @@ Expected Results:
 
 <details>
     <summary>GET</summary>
+    
 Endpoint URL examples:
 ```
 /company/search?companyName=co&page=1
@@ -513,7 +514,7 @@ Expected Response:
 
 <details>
     <summary>PUT</summary>
-    
+
 JSON body Input Example:
 ```
 {
