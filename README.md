@@ -198,17 +198,16 @@ Expected Response:
 
 <details>
     <summary>GET</summary>
-    
-Endpoint URL examples:
-    ```
-    /job/search?keyword=ado&workLocationType=Hybrid&yearsOfExperience=2&page=1
 
+Endpoint URL examples:
+```
+    /job/search?keyword=ado&workLocationType=Hybrid&yearsOfExperience=2&page=1
     /job/search?keyword=pm&closingDate=2-weeks&employmentType=Full Time&page=1
-    ```
+```
 
 Expected Results:
-    ```
-    {
+```
+{
     "timestamp": "2023-12-21T02:09:14.161Z",
     "status": 200,
     "success": true,
@@ -282,7 +281,7 @@ Expected Results:
         "offset": 0
     }
 }
-    ```
+```
 </details>
 
 - Method: GET
@@ -294,13 +293,13 @@ Expected Results:
 <details>
     <summary>GET</summary>
 Endpoint URL examples:
-    ```
+```
     /company/search?companyName=co&page=1
-    ```
+```
 
 Expected Results:
-    ```
-    {
+```
+{
     "timestamp": "2023-12-21T02:13:03.662Z",
     "status": 200,
     "success": true,
@@ -347,7 +346,7 @@ Expected Results:
         "offset": 0
     }
 }
-    ```
+```
 </details>
 
 - Method: GET
@@ -363,8 +362,8 @@ Expected Results:
 <details>
     <summary>GET</summary>
 Example of expected result:
-    ```
-    {
+```
+{
     "timestamp": "2023-12-21T03:03:52.606Z",
     "status": 200,
     "success": true,
@@ -385,7 +384,7 @@ Example of expected result:
         "logo": "https://epost-template-bucket.s3.us-west-1.amazonaws.com/Company+Logos/amazon_logo.png"
     }
 }
-    ```
+```
 </details>
 
 # Edit/Put company by id
@@ -398,20 +397,20 @@ Example of expected result:
     <summary>PUT</summary>
 
 Example JSON body:
-    ```
-    {
-        "companyName": "Amazon.com Inc.",
-        "ticker": "MNA",
-        "address": "777 Lucky Street",
-        "city": "San Francisco",
-        "state": "CA",
-        "postalCode": "99999",
-    }
-    ```
+```
+{
+    "companyName": "Amazon.com Inc.",
+    "ticker": "MNA",
+    "address": "777 Lucky Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "postalCode": "99999",
+}
+```
 
 Expected results:
-    ```
-    {
+```
+{
     "timestamp": "2023-12-21T03:16:34.101Z",
     "status": 200,
     "success": true,
@@ -430,7 +429,8 @@ Expected results:
         "companyStatus": 1,
         "logo": "https://epost-template-bucket.s3.us-west-1.amazonaws.com/Company+Logos/amazon_logo.png"
     }
-}```
+}
+```
 </details>
 
 # Delete company by id
@@ -443,14 +443,14 @@ Expected results:
     <summary>DELETE</summary>
 
 Expected results:
-    ```
-    {
+```
+{
     "timestamp": "2023-12-21T03:19:45.552Z",
     "status": 200,
     "success": true,
     "message": "Successfully removed company"
-    }
-    ```
+}
+```
 </details>
 
 
@@ -465,43 +465,43 @@ Expected results:
     <summary>GET</summary>
 
 Expected Response:
-    ```
-    {
-        "timestamp": "2023-12-20T17:44:27.455Z",
-        "status": 200,
-        "success": true,
-        "result": {
-            "_id": "6564cf10d11083608e90d02e",
-            "jobOwnerId": "655537b0c50e7f30a07b75fe",
-            "jobOwner": "William Chung",
-            "jobTitle": "REMOTE Opportunity for Project Manager",
-            "description": "Description:\n\nManage established processes for the implementation of prioritized backlog items across AP products, coordinating within AP Delivery agile processes and across divisions to manage activity from requirements through solution implementation.\nOversee workload capacity for the internal design team, coordinate project timelines, budgetary needs, and effectively communicate project status with multiple internal stakeholders.\nMaintain constant knowledge of current and upcoming projects and manage communication around shifting priorities with key stakeholders to ensure positive workflow.\nUtilize principles of project management and agile practices to achieve pace and maintain flexibility, promoting transparency and aligned stakeholder understanding, including\nRunning daily standup meetings with associated teams to track progress, assess risks, and stay consistently informed on the progress of all projects. Resolve any issues with appropriate stakeholders.\nProduce reporting that speaks to the teams' output and capacity.\nMaintain Jira tickets and Smartsheet progress tracker in support of multiple projects, while making suggestions for improvements and efficiencies.\nEngage with internal and external stakeholders to generate project estimates, scope or budget as necessary, and manage purchase orders, approvals, invoices and tracking in relation to projects produced through Vendor Management.\nProactively drive process improvements that will enable the teams to be efficient and ensure quality.\nEnhance and formalize standard operating procedures and capacity forecasting, while driving awareness of processes and planning protocol for work requests.\nAnalyze options with a particular focus on rapid clarification and resolution of complex or emergent issues, including costs, challenges, benefits, and recommended course of action and/or key open questions\nQualifications:\n\nDemonstrated experience in project management, including agile practices and active collaboration with product managers and owners.\nUnderstanding of end-to-end creative development processes and best practices, a plus.. Multi-media experience is a plus.\nStrong planning, scheduling, cost management, and reporting skills required\nDemonstrated experience balancing multiple diverse projects with competing demands for scope, time, cost, and risk, with a limited pool of resources.\nExperience in creative resource management and proficient in project management tools (i.e. Smartsheet, Microsoft Office, Jira, etc.). Agency experience a plus.\nDemonstrated ability to plan and implement solutions, both end-to-end at the tactical scale, and through developing requirements for larger initiatives\nFacility with data collection, aggregation of evidence, analysis, and interpretation, including practical applications to inform business and solution decisions and recommendations\nExcellent verbal and written communications clear, compelling, and persuasive in your communications with the ability to build strong working relationships with other teams in the organization.\nAbility to work well with staff at all organizational levels, vendors/partners, and educators\nStrong, yet kind interpersonal management skills with the ability to understand, motivate, inspire trust, and build rapport with peers and leadership.\nAffinity for being a team player eager to troubleshoot challenges, share your knowledge, and learn from others\nStrongly preferred: Experience with the Advanced Placement Program, or in education or school management",
-            "company": "Akamai Technologies",
-            "city": "Cambridge",
-            "state": "MA",
-            "country": "United States",
-            "workLocationType": "Hybrid",
-            "employmentType": "Full Time",
-            "yearsOfExperience": 5,
-            "baseSalary": 150,
-            "skills": [
-                "Salesforce, Java, React JS"
-            ],
-            "totalCompensation": 1250,
-            "visibleTo": "Everyone",
-            "jobPostStatus": 0,
-            "favoritedCount": 0,
-            "applyCount": 0,
-            "expireDate": "12/24/2023",
-            "createdAt": "2023-11-19T23:23:00.411Z",
-            "updatedAt": "2023-12-20T16:37:29.773Z",
-            "closingDate": "2024-05-17T23:23:00.411Z",
-            "archiveDate": "2024-06-17T16:37:29.773Z",
-            "viewCount": 30,
-            "questionnaire": []
-        }
+```
+{
+    "timestamp": "2023-12-20T17:44:27.455Z",
+    "status": 200,
+    "success": true,
+    "result": {
+        "_id": "6564cf10d11083608e90d02e",
+        "jobOwnerId": "655537b0c50e7f30a07b75fe",
+        "jobOwner": "William Chung",
+        "jobTitle": "REMOTE Opportunity for Project Manager",
+        "description": "Description:\n\nManage established processes for the implementation of prioritized backlog items across AP products, coordinating within AP Delivery agile processes and across divisions to manage activity from requirements through solution implementation.\nOversee workload capacity for the internal design team, coordinate project timelines, budgetary needs, and effectively communicate project status with multiple internal stakeholders.\nMaintain constant knowledge of current and upcoming projects and manage communication around shifting priorities with key stakeholders to ensure positive workflow.\nUtilize principles of project management and agile practices to achieve pace and maintain flexibility, promoting transparency and aligned stakeholder understanding, including\nRunning daily standup meetings with associated teams to track progress, assess risks, and stay consistently informed on the progress of all projects. Resolve any issues with appropriate stakeholders.\nProduce reporting that speaks to the teams' output and capacity.\nMaintain Jira tickets and Smartsheet progress tracker in support of multiple projects, while making suggestions for improvements and efficiencies.\nEngage with internal and external stakeholders to generate project estimates, scope or budget as necessary, and manage purchase orders, approvals, invoices and tracking in relation to projects produced through Vendor Management.\nProactively drive process improvements that will enable the teams to be efficient and ensure quality.\nEnhance and formalize standard operating procedures and capacity forecasting, while driving awareness of processes and planning protocol for work requests.\nAnalyze options with a particular focus on rapid clarification and resolution of complex or emergent issues, including costs, challenges, benefits, and recommended course of action and/or key open questions\nQualifications:\n\nDemonstrated experience in project management, including agile practices and active collaboration with product managers and owners.\nUnderstanding of end-to-end creative development processes and best practices, a plus.. Multi-media experience is a plus.\nStrong planning, scheduling, cost management, and reporting skills required\nDemonstrated experience balancing multiple diverse projects with competing demands for scope, time, cost, and risk, with a limited pool of resources.\nExperience in creative resource management and proficient in project management tools (i.e. Smartsheet, Microsoft Office, Jira, etc.). Agency experience a plus.\nDemonstrated ability to plan and implement solutions, both end-to-end at the tactical scale, and through developing requirements for larger initiatives\nFacility with data collection, aggregation of evidence, analysis, and interpretation, including practical applications to inform business and solution decisions and recommendations\nExcellent verbal and written communications clear, compelling, and persuasive in your communications with the ability to build strong working relationships with other teams in the organization.\nAbility to work well with staff at all organizational levels, vendors/partners, and educators\nStrong, yet kind interpersonal management skills with the ability to understand, motivate, inspire trust, and build rapport with peers and leadership.\nAffinity for being a team player eager to troubleshoot challenges, share your knowledge, and learn from others\nStrongly preferred: Experience with the Advanced Placement Program, or in education or school management",
+        "company": "Akamai Technologies",
+        "city": "Cambridge",
+        "state": "MA",
+        "country": "United States",
+        "workLocationType": "Hybrid",
+        "employmentType": "Full Time",
+        "yearsOfExperience": 5,
+        "baseSalary": 150,
+        "skills": [
+            "Salesforce, Java, React JS"
+        ],
+        "totalCompensation": 1250,
+        "visibleTo": "Everyone",
+        "jobPostStatus": 0,
+        "favoritedCount": 0,
+        "applyCount": 0,
+        "expireDate": "12/24/2023",
+        "createdAt": "2023-11-19T23:23:00.411Z",
+        "updatedAt": "2023-12-20T16:37:29.773Z",
+        "closingDate": "2024-05-17T23:23:00.411Z",
+        "archiveDate": "2024-06-17T16:37:29.773Z",
+        "viewCount": 30,
+        "questionnaire": []
     }
-    ```
+}
+```
 </details>
 
 # Edit/Put Job Post by Job Post id(_id)
@@ -513,50 +513,50 @@ Expected Response:
 <details>
     <summary>PUT</summary>
 JSON body Input Example:
-    ```
-    {
-        "description": "Testing json body"
-    }
-    ```
+```
+{
+    "description": "Testing json body"
+}
+```
 
 Expected Response:
-    ```
-    {
-        "timestamp": "2023-12-20T17:44:27.455Z",
-        "status": 200,
-        "success": true,
-        "result": {
-            "_id": "6564cf10d11083608e90d02e",
-            "jobOwnerId": "655537b0c50e7f30a07b75fe",
-            "jobOwner": "William Chung",
-            "jobTitle": "REMOTE Opportunity for Project Manager",
-            "description": "Testing json body",
-            "company": "Akamai Technologies",
-            "city": "Cambridge",
-            "state": "MA",
-            "country": "United States",
-            "workLocationType": "Hybrid",
-            "employmentType": "Full Time",
-            "yearsOfExperience": 5,
-            "baseSalary": 150,
-            "skills": [
-                "Salesforce, Java, React JS"
-            ],
-            "totalCompensation": 1250,
-            "visibleTo": "Everyone",
-            "jobPostStatus": 0,
-            "favoritedCount": 0,
-            "applyCount": 0,
-            "expireDate": "12/24/2023",
-            "createdAt": "2023-11-19T23:23:00.411Z",
-            "updatedAt": "2023-12-20T16:37:29.773Z",
-            "closingDate": "2024-05-17T23:23:00.411Z",
-            "archiveDate": "2024-06-17T16:37:29.773Z",
-            "viewCount": 30,
-            "questionnaire": []
-        }
+```
+{
+    "timestamp": "2023-12-20T17:44:27.455Z",
+    "status": 200,
+    "success": true,
+    "result": {
+        "_id": "6564cf10d11083608e90d02e",
+        "jobOwnerId": "655537b0c50e7f30a07b75fe",
+        "jobOwner": "William Chung",
+        "jobTitle": "REMOTE Opportunity for Project Manager",
+        "description": "Testing json body",
+        "company": "Akamai Technologies",
+        "city": "Cambridge",
+        "state": "MA",
+        "country": "United States",
+        "workLocationType": "Hybrid",
+        "employmentType": "Full Time",
+        "yearsOfExperience": 5,
+        "baseSalary": 150,
+        "skills": [
+            "Salesforce, Java, React JS"
+        ],
+        "totalCompensation": 1250,
+        "visibleTo": "Everyone",
+        "jobPostStatus": 0,
+        "favoritedCount": 0,
+        "applyCount": 0,
+        "expireDate": "12/24/2023",
+        "createdAt": "2023-11-19T23:23:00.411Z",
+        "updatedAt": "2023-12-20T16:37:29.773Z",
+        "closingDate": "2024-05-17T23:23:00.411Z",
+        "archiveDate": "2024-06-17T16:37:29.773Z",
+        "viewCount": 30,
+        "questionnaire": []
     }
-    ```
+}
+```
 </details>
 
 # Delete Job Post by Job Post id(_id)
