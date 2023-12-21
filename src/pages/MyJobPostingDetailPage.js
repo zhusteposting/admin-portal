@@ -27,7 +27,7 @@ const MyJobPostingsDetailPage = () => {
         <p
           className="flex text-lg items-center w-full justify-end text-purple-500 cursor-pointer "
           onClick={() =>
-            navigate(isFromSearchPage ? "/search" : "/dashboard/job-postings")
+            navigate(isFromSearchPage ? "/v2/search" : "/v2/dashboard/job-postings")
           }
         >
           <IconChevronLeft /> back to list

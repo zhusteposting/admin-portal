@@ -17,7 +17,7 @@ const LoginPage = () => {
   });
   const onSubmit = (values) => {
     toast.success("Login Successful !");
-    navigate("/dashboard/profile");
+    navigate("/v2/dashboard/profile");
   };
   return (
     <div className="h-screen w-full flex justify-center items-center">
@@ -77,7 +77,7 @@ const LoginPage = () => {
               }
             />
 
-            <Link to="/forgot-password">
+            <Link to="/v2/forgot-password">
               <p className="text-[16px] font-medium text-[#7e75ea]">
                 Forgot password?
               </p>

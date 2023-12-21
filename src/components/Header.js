@@ -7,22 +7,22 @@ const Header = ({ containerClass = "" }) => {
     return [
       {
         label: "Home",
-        path: "/dashboard/profile",
-        isActive: location.pathname.includes("/dashboard"),
+        path: "/v2/dashboard/profile",
+        isActive: location.pathname.includes("/v2/dashboard"),
       },
       {
         label: "Search",
-        path: "/search",
-        isActive: location.pathname.includes("/search"),
+        path: "/v2/search",
+        isActive: location.pathname.includes("/v2/search"),
       },
       {
         label: "Reporting",
-        path: "/reporting",
-        isActive: location.pathname.includes("/reporting"),
+        path: "/v2/reporting",
+        isActive: location.pathname.includes("/v2/reporting"),
       },
       {
         label: "Logout",
-        path: "/logout",
+        path: "/v2/logout",
         isActive: false,
       },
     ];

@@ -11,30 +11,30 @@ const DashboardPage = ({ children }) => {
     return [
       {
         label: "My Profile",
-        path: "/dashboard/profile",
+        path: "/v2/dashboard/profile",
         isActive: location.pathname.includes("/profile"),
       },
       {
         label: "My Job Postings",
-        path: "/dashboard/job-postings",
+        path: "/v2/dashboard/job-postings",
         isActive: location.pathname.includes("/job-postings"),
       },
       {
         label: "My Job Requests",
-        path: "/dashboard/job-requests",
+        path: "/v2/dashboard/job-requests",
         isActive: location.pathname.includes("/job-requests"),
       },
     ];
   }, [location]);
   const headlineText = useMemo(() => {
     switch (location.pathname) {
-      case "/dashboard/profile":
+      case "/v2/dashboard/profile":
         return "Display your User information form user account and profile from account used to login to admin portal (whoami page)";
-      case "/dashboard/job-postings":
+      case "/v2/dashboard/job-postings":
         return "Displays your list of Job Posting by creation date";
-      case "/dashboard/job-postings/detail":
+      case "/v2/dashboard/job-postings/detail":
         return "Displays your Job Posting Record in Details";
-      case "/dashboard/job-requests":
+      case "/v2/dashboard/job-requests":
         return "";
       default:
         return "";

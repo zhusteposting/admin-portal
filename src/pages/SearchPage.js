@@ -22,7 +22,7 @@ const SearchPage = ({ children }) => {
     <Table.Tr
       key={index}
       onClick={() =>
-        navigate("/dashboard/job-postings/detail", {
+        navigate("/v2/dashboard/job-postings/detail", {
           state: { isFromSearchPage: true },
         })
       }

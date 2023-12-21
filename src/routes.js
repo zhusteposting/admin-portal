@@ -12,7 +12,7 @@ const SearchPage = lazy(() => import("./pages/SearchPage"));
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/v2",
     element: (
       <Suspense>
         <LoginPage />
@@ -20,7 +20,7 @@ export const router = createBrowserRouter([
     ),
   },
   {
-    path: "/login",
+    path: "/v2/login",
     element: (
       <Suspense>
         <LoginPage />
@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
     ),
   },
   {
-    path: "/dashboard",
+    path: "/v2/dashboard",
     element: <DashboardPage />,
     children: [
       {
@@ -66,7 +66,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: "/search",
+    path: "/v2/search",
     element: (
       <Suspense>
         <SearchPage />
