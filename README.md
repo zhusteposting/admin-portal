@@ -3,6 +3,32 @@ e-posting
 
 ## Endpoint Functionality
 
+### User Account Model
+
+    | Name          | Type       | Unique | Required     |
+    | ------------  | -------- | ------ | -------------- |
+    | id            | str      | yes    | yes            |
+    | email         | str      | no     | no             |
+    | password      | str      | no     | yes            |
+    | signupDate         | str      | no     | yes            |
+    | isEmailAuthenticated        | str      | no     | yes            |
+    | accountType   | str      | no     | yes            |
+    | accountStatus      | str      | no     | yes            |
+    | role      | str      | no     | yes            |
+    | accountSettings       | str      | no     | yes            |
+    | lastActive     | str      | no     | yes            |
+    | provider   | str      | no     | no             |
+    | profile| ref      | no     | no|
+    | favorites| str      | no     | no|
+    | following| str      | no     | no|
+    | verificationToken| str      | no     | no|
+    | passwordResetToken| str      | no     | no|
+    | tokenExpirationDate| str      | no     | no|
+    | failedLoginAttempts| str      | no     | no|
+    | lastFailedLoginAttempt| str      | no     | no|
+    | passwordRecoveryAttempts| str      | no     | no|
+    | lastPasswordRecoveryAttempt| str      | no     | no            |
+
 ## My Profile Tab
 ---
 - Method: GET
