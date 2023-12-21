@@ -198,14 +198,15 @@ Expected Response:
 
 <details>
     <summary>GET</summary>
-    Endpoint URL examples:
+    
+Endpoint URL examples:
     ```
     /job/search?keyword=ado&workLocationType=Hybrid&yearsOfExperience=2&page=1
 
     /job/search?keyword=pm&closingDate=2-weeks&employmentType=Full Time&page=1
     ```
 
-    Expected Results:
+Expected Results:
     ```
     {
     "timestamp": "2023-12-21T02:09:14.161Z",
@@ -292,12 +293,12 @@ Expected Response:
 
 <details>
     <summary>GET</summary>
-    Endpoint URL examples:
+Endpoint URL examples:
     ```
     /company/search?companyName=co&page=1
     ```
 
-    Expected Results:
+Expected Results:
     ```
     {
     "timestamp": "2023-12-21T02:13:03.662Z",
@@ -361,7 +362,7 @@ Expected Response:
 
 <details>
     <summary>GET</summary>
-    Example of expected result:
+Example of expected result:
     ```
     {
     "timestamp": "2023-12-21T03:03:52.606Z",
@@ -395,7 +396,8 @@ Expected Response:
 
 <details>
     <summary>PUT</summary>
-    Example JSON body:
+
+Example JSON body:
     ```
     {
         "companyName": "Amazon.com Inc.",
@@ -407,7 +409,7 @@ Expected Response:
     }
     ```
 
-    Expected results:
+Expected results:
     ```
     {
     "timestamp": "2023-12-21T03:16:34.101Z",
@@ -440,7 +442,7 @@ Expected Response:
 <details>
     <summary>DELETE</summary>
 
-    Expected results:
+Expected results:
     ```
     {
     "timestamp": "2023-12-21T03:19:45.552Z",
@@ -462,7 +464,7 @@ Expected Response:
 <details>
     <summary>GET</summary>
 
-    Expected Response:
+Expected Response:
     ```
     {
         "timestamp": "2023-12-20T17:44:27.455Z",
@@ -510,14 +512,14 @@ Expected Response:
 
 <details>
     <summary>PUT</summary>
-    JSON body Input Example:
+JSON body Input Example:
     ```
     {
         "description": "Testing json body"
     }
     ```
 
-    Expected Response:
+Expected Response:
     ```
     {
         "timestamp": "2023-12-20T17:44:27.455Z",
